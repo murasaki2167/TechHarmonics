@@ -1,0 +1,118 @@
+.production {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.production__discover {
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    z-index: 1;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .production__discover img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+  
+  .production__discover p {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+  
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+.production-sushi, .production-drink {
+    width: 100%;
+    min-height: 640px;
+    display: flex;
+    flex-direction: row;
+}
+
+.production__content {
+    flex: 1;
+    display: flex;
+    text-align: justify;
+    text-justify: auto;
+    justify-content: center;
+    flex-direction: column;
+    padding: 32px 64px;
+}
+
+.production__image{
+    flex: 1;
+    position: relative;
+    padding: 32px 64px; 
+    background-color: var(--color-white);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.production-sushi .production__image {
+    background-color: var(--color-white);
+}
+
+.production-drink .production__image {
+    background-color: var(--color-white);
+}
+
+.production__image img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+.production__arrow {
+    position: absolute;
+    z-index: 1;
+  }
+  
+.production__arrow img {
+    object-fit: contain;
+  }
+  
+.production__arrow-left {
+    left: -2.5px;
+    top: 12%;
+  }
+  
+.production__arrow-left img,
+.production__arrow-top img {
+    width: auto;
+    height: 100%;
+  }
+  
+.production__arrow-top {
+    top: -10.5px;
+    left: 12%;
+  }
+  
+.production__arrow-bottom {
+    bottom: -6.5px;
+    right: 12%;
+  }
+  
+.production__arrow-bottom img,
+.production__arrow-right img {
+    width: 100%;
+    height: auto;
+  }
+  
+.production__arrow-right {
+    right: -2.5px;
+    bottom: 12%;
+  }

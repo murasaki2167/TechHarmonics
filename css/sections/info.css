@@ -1,0 +1,49 @@
+.info {
+    display: flex;
+    min-height: 720px;
+    overflow: hidden;
+}
+
+.info__image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-white);
+    position: relative;
+}
+
+.info__image div {
+    padding: 32px 64px;
+    flex: 1;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.info__image-piano1 {
+    border-bottom: 8px solid var(--color-creamson);
+}
+
+.info__image-piano1 img {
+    width: 500px;
+    height: 430px;
+}
+
+.info__video-piano2 {
+    border-bottom: 8px solid var(--color-creamson);
+}
+
+.info__video-piano2 video {
+    width: 500px;
+    height: 420px;
+}
+
+.info__content {
+    padding: 64px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
